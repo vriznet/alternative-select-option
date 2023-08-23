@@ -17,9 +17,9 @@ export const GlobalStyles = createGlobalStyle`
   }
   a {
     text-decoration: none;
-    color: #000;
+    color: inherit;
     &:hover, &:focus, &:active, &:visited, &:link {
-      color: #000;
+      color: inherit;
     }
   }
 `;
